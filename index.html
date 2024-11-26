@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/css.css" />
+    <title>MY WORLD</title>
+    <link rel="shortcut icon" href="./1732301856972.jpeg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" class="">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&amp;display=swap" rel="stylesheet">
+
+  </head>
+  <body  >
+
+<!-- login -->
+ <header class=" vh-100 w-100 p-5  ph d-flex flex-column align-items-center "> 
+   <section id="loginPg" class="my-5 py-5 position-relative  ">
+     <div class="container text-center shadow-lg p-5 rounded-5  w-100 bg-white ">
+       <h1 class=""> Login to Attractive world...........</h1>
+      
+     
+    <div id="login"> 
+       <div class="userNme my-4 ">
+      <input id="loginEmail" type="email" name="e-mail" placeholder="Enter ur e-mail" class="form-control ">
+      
+    </div>
+    <div class="password my-4 ">
+      <input id="loginPass" type="password" name="password" placeholder="Enter ur password" class="form-control">
+    </div>
+  </div>
+      <p id="invalidLogin" class="text-danger d-none">incorrect email or password</p>
+      <button id="loginButton" class="btn border border-2 btn-outline-primary my-4 w-100"> Login</button>
+      <p>Don’t have an account? <span><a id="signLink" class="text-decoration-none text-primary" href="#">Sign Up</a></span></p>
+  
+    
+    </div>
+  </section> 
+ 
+ <!-- login -->
+  <!--  sign up   -->
+
+  <section id="signPg" class="my-5 py-5 position-absolute top-0 bottom-0 start-0 end-0  d-none ">
+    <div class="container text-center shadow-lg p-5 rounded-5  w-75 bg-white">
+      <h1>Oops, must be sign up firstly.......</h1>
+     
+      <div id="sign">
+        <div class="userNme my-4 ">
+          <input id="signName" type="text" name="username" placeholder="ur name" class="form-control  ">
+        </div>
+        <div class="e-mail my-4 ">
+          <input id="userEmail" type="email" name="email" placeholder="Enter ur e-mail" class="form-control">
+        </div>
+        <div class="password my-4 ">
+          <input id="userPass" type="password" name="password" placeholder="Enter ur password" class="form-control">
+        </div>
+        <div id="invalid" class="text-danger d-none "><ul class="text-start">
+          <li>Email must be include @ / gmail/yahoo/hotmail/(org|com|net)</li>
+          <li>password must be more than 4 chars</li>
+          <li>Email shouldnt be used before</li>
+        </ul> </div>
+        <p id="valid" class="text-success d-none">success</p>
+        <button id="signBtn" class="btn border border-primary border-2 btn-outline-primary my-4 w-100"> sign up</button>
+        <p>login with ur account? <span><a id="loginLink" class="text-decoration-none text-primary" href="#">login</a></span></p>
+      </div>
+      </div>
+ </section> 
+
+  
+</header>
+ <!-- sign -->
+
+
+
+
+
+   
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+    
+  </body>
+</html>

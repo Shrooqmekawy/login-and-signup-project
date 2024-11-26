@@ -1,0 +1,43 @@
+.ph{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../1732301856972.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ 
+}
+h1{
+    font-family:  "Pacifico", cursive;
+    background-image: linear-gradient(to right ,rgb(150, 2, 150) , rgb(177, 75, 92) , rgb(46, 6, 164));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+p,.text{
+    font-family:  "Pacifico", cursive;
+}
+.form-control:focus{
+    border-color: #a00574 !important;
+    box-shadow: 0 0 0 3px  #ec97d9!important;
+}
+.btn-outline-primary{
+    border-color:#a00574 !important ;
+    color:#0d0909!important;
+}
+.btn-outline-primary:hover{
+    background-color: #a00574 !important;
+    box-shadow: 0 0 0 3px  #ef6fca;
+    color: aliceblue !important;
+}
+.nav-color{
+    background-image: linear-gradient(rgba(120, 8, 93, 0.6),rgba(112, 6, 142, 0.6));
+}
+#welcome-bg{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../1732301856995.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+button{
+    width: 50px;
+    height: 50px;
+    
+}
